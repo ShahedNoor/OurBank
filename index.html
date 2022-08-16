@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Management</title>
+
+    <!-- Linked CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tailwind CSS CDN Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- This is header -->
+    <div class="header mt-6">
+        <h1 class="text-4xl font-bold text-center">Welcome To <span class="text-violet-600">Our Bank</span></h1>
+    </div>
+
+    <!-- Login Form -->
+    <div class="login-section bg-indigo-200 w-9/12 mx-auto mt-12 p-8 rounded-md">
+        <h1 class="text-2xl mt-4 font-bold mb-4">Please Enter Your Username/Email & Password 💌</h1>
+        <label class="font-bold" for="email/username">Username / Email</label>
+        <input class="block rounded px-3 h-7 w-2/3" type="email/username" id="user"
+            placeholder="Type Your User/Email Address">
+
+        <label class="font-bold" for="password">Password</label>
+        <input class="block rounded px-3 h-7 w-2/3" type="password" id="pass" placeholder="Type Your Password">
+
+        <button class="mt-5 bg-amber-600 hover:bg-sky-600 text-white font-medium p-2 rounded-md hover:"
+            id="btn-submit">Submit</button>
+    </div>
+
+    <!-- Linked Script File -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
